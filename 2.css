@@ -1,0 +1,79 @@
+nav{
+display: flex;
+justify-content: center;
+padding: 20px 0px;
+}
+*{
+margin: 0px;
+padding: 2px;
+}
+.navbox{
+padding: 0px 20px;
+font-size: 20px;
+}
+a{
+margin: 9px;
+text-decoration: none;
+color: black !important;
+}
+@media(max-width: 700px){
+    a{
+        margin: 0px;
+        padding: 0px;
+    }
+}
+.navcenter{
+    font-size: 24px;
+    text-align: center;
+    padding: 0px 50px;
+}
+@media(max-width: 750px){
+    .navcenter{
+padding: 0px 0px;
+    }
+}
+
+.car{
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff !important;
+    background: black !important;
+    
+}
+header{
+    padding: 15px 0px;
+}
+.blue-button{
+    color: #ffffff !important;
+    background: #0056f6;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+.grey{
+    color :rgb(58, 58, 58) !important;
+}
+@media( max-width: 750px){
+    .navbox {
+        margin: 0px;
+    }
+}
+.gsc{
+    text-align: center;
+    padding: 20px 130px;
+    font-size: 20px;
+   
+}
+.c{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px ;
+    border: 2px solid rgb(54, 53, 53);
+    max-width: 180px;
+    margin: 0 auto;
+}
+header{
+    background: url('images/banner_background.jpg');
+    background-size: cover;
+    height: 900px;
+}
